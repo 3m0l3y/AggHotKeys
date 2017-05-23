@@ -4,6 +4,10 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
+; This script automatically replaces typed text with a token string when the hotstring is typed out
+
+
+; Will only be active in screen-scraper workbench
 #IfWinActive screen-scraper workbench - Enterprise Edition
 
 

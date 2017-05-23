@@ -3,6 +3,10 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+; This script will popup a menu for selecting tokens that can be inserted into screen-scraper
+
+; Highlight the text you want to replace, then click win+z
+
 #Persistent
 
 ; Create another menu destined to become a submenu of the main menu.
