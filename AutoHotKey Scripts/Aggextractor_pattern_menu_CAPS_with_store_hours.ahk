@@ -16,8 +16,9 @@ Menu, Submenu1, Add, STORE_ID, MenuHandler
 Menu, Submenu1, Add, STORE_NAME, MenuHandler
 Menu, Submenu1, Add, STORE_TYPE, MenuHandler
 Menu, Submenu1, Add, STORE_LOCATION, MenuHandler
-Menu, Submenu1, Add, STORE_HOURS, MenuHandler
 
+
+Menu, Submenu2, Add, STORE_HOURS, MenuHandler
 Menu, Submenu2, Add, SUN_OPEN, MenuHandler
 Menu, Submenu2, Add, SUN_CLOSE, MenuHandler
 Menu, Submenu2, Add, MON_OPEN, MenuHandler
@@ -51,13 +52,12 @@ Menu, MyMenu, Add, ZIP, MenuHandler
 Menu, MyMenu, Add, COUNTRY, MenuHandler
 Menu, MyMenu, Add, PHONE, MenuHandler
 Menu, MyMenu, Add, FAX, MenuHandler
-Menu, MyMenu, Add, STORE_HOURS, MenuHandler
-Menu, MyMenu, Add, EMAIL, MenuHandler
-Menu, MyMenu, Add, WEBSITE, MenuHandler
-Menu, MyMenu, Add, PHARM_HOURS, MenuHandler
 
 Menu, MyMenu, Add, STORE_HOURS..., :Submenu2
 
+Menu, MyMenu, Add, EMAIL, MenuHandler
+Menu, MyMenu, Add, WEBSITE, MenuHandler
+Menu, MyMenu, Add, PHARM_HOURS, MenuHandler
 Menu, MyMenu, Add, REGION, MenuHandler
 Menu, MyMenu, Add, LOCALITY, MenuHandler
 Menu, MyMenu, Add, LATITUDE, MenuHandler
